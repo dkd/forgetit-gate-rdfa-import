@@ -17,7 +17,7 @@ import gate.creole.ExecutionException;
 import gate.creole.ResourceInstantiationException;
 import gate.util.InvalidOffsetException;
 
-@CreoleResource(name = "RDFa Lite Importer", comment = "Import Annotations from RDFa Lite", tool = true, autoinstances = @AutoInstance, icon="")
+@CreoleResource(name = "RDFa Lite Importer", comment = "Import Annotations from RDFa Lite")
 public class RdfaImporter extends AbstractLanguageAnalyser implements ProcessingResource {
     private static final long serialVersionUID = -2874636782869415162L;
 
